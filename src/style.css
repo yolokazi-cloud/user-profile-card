@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(to left,antiquewhite  10%, rgb(239, 234, 239)70%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card{
+    width:50%;
+    height: 40vh;
+    border: 15px solid white;
+    padding: 20px;
+    margin: 150px 0px 100px 330px;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to left,antiquewhite  10%, rgb(239, 234, 239)70%);
+    background-size: 100% 100%;
+    box-shadow: 0 0 500px rgba(129, 128, 128, 0.5);
+    backdrop-filter: blur(7px);
+   
+    
+}
+
+.card img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 7px solid rgb(216, 213, 213);
+     display: inline-flex;
+     float:left;
+     margin:4%;
+}
+
+.card p{
+    margin:10px 0;
+    margin-left: -10%;
+    font-size:15px ;
+    text-align: left;
+    font-family: cursive;
+    color: #333;
+}
+.card h2{
+    text-align: left;
+    color: rgb(132, 139, 146);
+    font-family:cursive;
+    margin-bottom: -2%;
+    margin-top: 5%;
+    
+}
+.card h3{
+    font-family: cursive;
+    text-align: left;
+    color: rgb(0, 191, 255);
+    font-weight: lighter;
+}
+.buttons > button{
+    border-radius: 4px;
+    margin:3%;
+    width:100px;
+    height:30px;
+    background-color: rgb(0, 208, 255);
+    border: none;
+    font-family: cursive;
+    color: #333;
+}
+
+
+  @media (max-width: 400px) {
+    .card{
+        width:200px;
+        height: 90vh;
+        margin:20px 20px 20px 20px;
+        
+          
+    }
+    .card p{
+      padding-left: 7%; 
+      padding-right: 7%; 
+      padding-bottom: 2%;
+    }
+    #statss {
+        text-align: center;
+    }
+    
+  }
+
+  @media (max-width: 900px) {
+    .card{
+        width:200px;
+        height:80vh;
+        margin:20px 20px 20px 20px;    
+    }
+    .card p{
+      padding-left: 7%; 
+      padding-right: 7%; 
+      padding-bottom: 2%;
+    }
+    #statss {
+        text-align: center;
+    }
+    
+  }
+
+
